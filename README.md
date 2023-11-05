@@ -18,14 +18,14 @@ To download and install EyeSpy on your machine, follow these steps:
 
 1. Open a terminal on your Ubuntu machine.
 2. Run the following command to clone the EyeSpy repository:
-
-```git clone https://github.com/EYESTOSPYCNF/eyestospywebsite.git```
-
+```
+git clone https://github.com/EYESTOSPYCNF/eyestospywebsite.git
+```
 
 3. Navigate to the project directory:
-
-```cd eyestospywebsite```
-
+```
+cd eyestospywebsite
+```
 
 ### Other Machines
 
