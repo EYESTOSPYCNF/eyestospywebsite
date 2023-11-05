@@ -3,14 +3,8 @@ import { getAuth } from "https://www.gstatic.com/firebasejs/9.10.0/firebase-auth
 import { getFirestore } from "https://www.gstatic.com/firebasejs/9.10.0/firebase-firestore.js"
 
 const firebaseConfig = {
-  apiKey: "AIzaSyD-4bqCCChsaGorwi-oLzJOdHmRfEl19pg",
-  authDomain: "spycnf.firebaseapp.com",
-  projectId: "spycnf",
-  storageBucket: "spycnf.appspot.com",
-  messagingSenderId: "864711789835",
-  appId: "1:864711789835:web:135e0ad23afbc6d681260e"
+  // Paste your firebase config here
 };
-
 export default firebaseConfig;
 
 
