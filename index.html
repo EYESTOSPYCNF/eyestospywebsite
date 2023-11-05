@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="SPY PFP.png" type="image/png">
+    <title>EYESTOSPY</title>
+</head>
+
+<body>
+    <div class="VPS"></div>
+    <div class="background"></div>
+    <div class="container">
+        <h1 class="animated">EYESTOSPY</h1>
+        <div class="countdown-box">
+            <h2>Countdown Timer</h2>
+            <div id="countdown-timer">
+                <span id="days">00</span> days
+                <span id="hours">00</span> hours
+                <span id="minutes">00</span> minutes
+                <span id="seconds">00</span> seconds
+            </div>
+        </div>
+        <div class="description">
+            <p>Register now to get our new VPS services</p>
+            <a href="#" class="btn" onclick="copyToClipboard('eyestospycnf@mail2tor.com'); return false;">Contact</a>
+        </div>
+
+        <script>
+            function copyToClipboard(text) {
+                var textArea = document.createElement("textarea");
+                textArea.value = text;
+                document.body.appendChild(textArea);
+                textArea.select();
+                document.execCommand('copy');
+                document.body.removeChild(textArea);
+                alert("The email address has been copied to the clipboard: " + text);
+            }
+        </script>
+    </div>
+    <a href="account.html" class="account-button">My Account</a>
+    <!-- Botón "Donate" -->
+    <a href="donate.html" class="donate-button">Donate</a>
+    <!-- GitHub button -->
+    <a class="github-button" href="https://github.com/EYESTOSPYCNF" target="_blank">
+        <img src="https://static-00.iconduck.com/assets.00/github-icon-2048x1988-jzvzcf2t.png" alt="GitHub Icon" class="github-icon">
+        <span>Built in GitHub</span>
+    </a>
+
+    <!-- Popup window -->
+    <div id="popup" class="popup">
+        <span class="popup-content"> Due to a high volume of requests on our servers, our services may experience temporary delays</span>
+        
+        <span class="popup-close" id="popup-close">X</span>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+
+</html>
