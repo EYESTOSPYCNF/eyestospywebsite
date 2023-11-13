@@ -12,7 +12,7 @@ import './app/githubLogin.js';
 import './app/logout.js';
 import './app/postList.js';
 
-// Resto del código...
+// Rest of the code
 
 // list for auth state changes
 onAuthStateChanged(auth, async (user) => {
